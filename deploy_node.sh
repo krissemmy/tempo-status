@@ -171,7 +171,7 @@ sudo journalctl -fu tempo | ccze
 
 test11
 
-curl  -H 'Content-Type: application/json' -H 'X-Api-Key: otex_first_eth_node123!' --data '{
+curl  -H 'Content-Type: application/json' --data '{
             "id": 1,
             "jsonrpc": "2.0",
             "method": "eth_blockNumber",
